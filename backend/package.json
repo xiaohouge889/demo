@@ -1,0 +1,19 @@
+{
+  "name": "checkin-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "init-db": "node database/init.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "nodemailer": "^6.9.7",
+    "node-cron": "^3.0.3",
+    "body-parser": "^1.20.2",
+    "mysql2": "^3.6.5",
+    "dotenv": "^16.3.1"
+  }
+}
